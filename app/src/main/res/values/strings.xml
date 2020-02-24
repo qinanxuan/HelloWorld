@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+</resources>
+<!--
+1. 在代码中使用R.string.app_name可以获得对上述定义的字符串的引用
+在xml文件中通过@string/app_name可以获得该字符串的引用
+2.若是图片资源，string替换为drawable，
+若是引用的应用图标可以换成mipmap
+若是引用布局文件可以替换成layout
+-->
